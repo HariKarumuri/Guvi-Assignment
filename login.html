@@ -1,0 +1,26 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Login</title>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include your login.js file -->
+    <script src="./Js/login.js"></script>
+  </head>
+  <body>
+    <!-- Your login form -->
+    <form>
+      <label for="loginUsername">Username:</label>
+      <input type="text" id="loginUsername" name="loginUsername" />
+
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="loginPassword" />
+
+      <!-- Button to trigger login -->
+      <button type="button" onclick="loginUser()">Login</button>
+    </form>
+  </body>
+</html>

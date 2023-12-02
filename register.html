@@ -1,0 +1,35 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+    
+  </head>
+  <body class="container mt-4">
+    <h2>User Registration</h2>
+
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" id="username" name="username" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" name="password" required />
+      </div>
+
+      <!-- Add other form fields as needed -->
+
+      <button type="button" class="btn btn-primary" onclick="registerUser()">Register</button>
+    </form>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Your register.js file -->
+    <script src="./Js/register.js"></script>
+  </body>
+</html>

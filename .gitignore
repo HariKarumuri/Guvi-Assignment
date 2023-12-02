@@ -1,0 +1,70 @@
+# Ignore composer files
+/vendor/
+
+# Ignore the local configuration file
+/config.local.php
+
+# Ignore log files and directories
+/log/
+*.log
+
+# Ignore user-specific files
+/.user.ini
+
+# Ignore environment file
+.env
+
+# Ignore session files
+/sessions/
+
+# Ignore cache files
+/cache/
+
+# Ignore compiled files
+/*.phar
+/*.php[co]
+
+# Ignore PHPStorm files
+/.idea/
+
+# Ignore testing files
+/phpunit.xml
+/phpunit.result.cache
+
+# Ignore OS-generated files
+Thumbs.db
+.DS_Store
+
+# Ignore Composer's files
+/composer.phar
+/composer.lock
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore PHP Composer installed dependencies
+/vendor/
+
+# Ignore Homestead.yaml file
+/Homestead.yaml
+
+# Ignore Homestead.json file
+/Homestead.json
+
+# Ignore Vagrantfile
+/Vagrantfile
+
+# Ignore environment-specific files
+/.env.local.php
+/.env.local
+
+# Ignore PHPStorm files
+/.idea/
+*.iml
+*.iws
+*.ipr
+.idea
+
+# Ignore Visual Studio Code settings
+.vscode/
