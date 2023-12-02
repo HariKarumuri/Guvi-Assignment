@@ -1,26 +1,66 @@
-<!-- login.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User Login</title>
-    <!-- Include jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <!-- Include your login.js file -->
-    <script src="./Js/login.js"></script>
-  </head>
-  <body>
-    <!-- Your login form -->
-    <form>
-      <label for="loginUsername">Username:</label>
-      <input type="text" id="loginUsername" name="loginUsername" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Login Form</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Guvi-Login-System</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <label for="loginPassword">Password:</label>
-      <input type="password" id="loginPassword" name="loginPassword" />
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="./index.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./profile.html">View Profile</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <form>
+      <h3>Login Page</h3>
+      <div class="form-group">
+        <label for="loginUsername">Username:</label>
+        <input type="text" class="form-control" id="loginUsername" name="loginUsername" />
+      </div>
+
+      <div class="form-group">
+        <label for="loginPassword">Password:</label>
+        <input type="password" class="form-control" id="loginPassword" name="loginPassword" />
+      </div>
 
       <!-- Button to trigger login -->
-      <button type="button" onclick="loginUser()">Login</button>
+      <button type="button" class="btn btn-primary" onclick="loginUser()">Login</button>
     </form>
-  </body>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

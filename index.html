@@ -23,16 +23,51 @@
     ></script>
   </head>
   <body>
-    <div class="container  vh-100 d-flex justify-content-center align-items-center flex-column">
-      <div class="welcome-text p-4"><h1>Welcome to the home page of Guvi</h1></div>
-
-      <div class="btn-container">
-        <a href="./login.html" class="btn btn-primary">Login</a>
-        <a href="./register.html" class="btn btn-success"
-          >New User? Register Here</a
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Guvi-Login-System</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-        <a href="./profile.html" class="btn btn-info">View Profile</a>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./profile.html">View Profile</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+    <div
+      class="welcome-text p-4 d-flex justify-content-center align-items-center flex-column"
+    >
+      <h1>Welcome to the home page of Guvi</h1>
+
+      <p class="mt-5 text-white text-capitalize fs-5">
+        this is a assignemnet for Guvi , where need a login system with
+        integraton of 2 databases in it !Thankyou for givng this oppertunity !
+      </p>
+
+      <img src="./assets/c667201689b275a71609024b3ad6e1d5.gif" alt="thankyou giffy " >
     </div>
   </body>
 </html>

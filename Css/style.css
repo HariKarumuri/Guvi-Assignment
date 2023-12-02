@@ -7,7 +7,7 @@ body {
   background-image: url(../assets/aesthetic-computer-4k.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: brightness(50%) blur(5px);
+  backdrop-filter: brightness(0%) blur(px);
 }
 h1 {
   color: white !important;
