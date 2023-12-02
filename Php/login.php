@@ -4,7 +4,7 @@
 include_once 'db_config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = sanitizeInput($_POST['username']);
+    $username = sanitizeMySQLInput($_POST['username']); // Fix: Use sanitizeMySQLInput
     $password = $_POST['password'];
 
     $stmt = $mysqli->prepare("SELECT id, username, password FROM users WHERE username = ?");
